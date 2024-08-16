@@ -1,0 +1,8 @@
+import random
+
+password = 1234
+while True:
+    num_genrate = random.randint(1000,9999)
+    print(num_genrate)
+    if password == num_genrate:
+        break
